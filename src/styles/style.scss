@@ -1,0 +1,80 @@
+.effect {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+.effect-kinetic {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &__item {
+    font-family: "arial";
+    font-size: 8vw;
+    font-weight: 700;
+    transform-origin: center center;
+    position: absolute;
+    &--black {
+      &:nth-child(1) {
+        color: #000;
+        z-index: 12;
+      }
+    }
+    &--white {
+      &:nth-child(1) {
+        color: #fff;
+        z-index: 12;
+      }
+    }
+    &:nth-child(2) {
+      color: #fbeb62;
+      z-index: 11;
+    }
+    &:nth-child(3) {
+      color: #fb9363;
+      z-index: 10;
+    }
+    &:nth-child(4) {
+      color: #fb5b5b;
+      z-index: 9;
+    }
+    &:nth-child(5) {
+      color: #fb527b;
+      z-index: 8;
+    }
+    &:nth-child(6) {
+      color: #fc52db;
+      z-index: 7;
+    }
+    &:nth-child(7) {
+      color: #d35bfb;
+      z-index: 6;
+    }
+    &:nth-child(8) {
+      color: #7353fa;
+      z-index: 5;
+    }
+    &:nth-child(9) {
+      color: #5473fb;
+      z-index: 4;
+    }
+    &:nth-child(10) {
+      color: #6cebfb;
+      z-index: 3;
+    }
+    &:nth-child(11) {
+      color: #6afbf3;
+      z-index: 2;
+    }
+    &:nth-child(12) {
+      color: #7cfb8b;
+      z-index: 1;
+    }
+  }
+}
